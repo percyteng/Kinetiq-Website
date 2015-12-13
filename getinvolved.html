@@ -1,0 +1,101 @@
+<!--Percy Teng cisc282 final project KQ website-->
+<!Display a form with sql database involved. It takes general information of a crew member which is stored in the KQproject database -->
+<!--Asking both general and tricky questions to user. Implementation of database can be shown on this page.-->
+
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<title>Kinetiq involvement</title>
+  	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+</head>
+    <div id="dropnav">
+    <span id="logo"><a href="KQ main page.html"><img  src="images/logo.png"></a></span>
+      <nav>
+        <ul>
+            <li id="main">
+            <a href="KQ main page.html">Home</a>
+            </li>
+            <li id="main">
+            <a href="memberIntro.php">Members</a>
+                <ul id="subnav">
+                      <li><a href="memberIntro.php">Member Intro</a></li>
+                      <li><a href="getinvolved.html">Get involved</a></li>
+                </ul>            
+            </li>
+            <li id="main">
+            <a href="Aboutus.html">About</a>
+                <ul id="subnav">
+                      <li><a href="Aboutus.html">About us</a></li>
+                      <li><a href="Knowtheledge.html">Hiphop&Breaking</a></li>
+                </ul>            
+            </li>
+            <li id="main">
+            <a href="#">KQ new kids</a>
+            </li>
+        </ul>
+      </nav>
+      <ul id="second">
+            <li><a href="Competition.html">|Competition|</a></li>
+            <li><a href="Performance.html">|Performance|</a></li>
+      </ul>
+    </div>
+      <img src="images/involveImg.png" id="involveImg">
+     <div id="mainDiv"><!-- The main div-->
+      <form action="signup-submit.php" method="POST" enctype="multipart/form-data"><!-- Using Post type form to export information into signup-submit.php including images-->
+        <h2>Basic Information</h2><!-- part of basic information-->                                      
+        Name: 
+        <input type="text" name="name" />
+        Nickname: 
+        <input type="text" name="nickname" /> 
+        Gender:
+        <label><input type="radio" name="gender" value="male" checked="checked" /> male</label><!--Radio button to determine user's gender -->
+        <label><input type="radio" name="gender" value="female" /> female</label><br/>
+        Age:
+        <input type="text" name="age" />
+        Contact email
+        <input type="text" name="contact">
+        Type of dance you do:<br/><br/>
+        <label><input type="checkbox" name="type[]" value="BreakDance" checked="checked" /> Break dance</label><!--Applying a checkbox for user to show off their linguistic skills -->
+        <label><input type="checkbox" name="type[]" value="Hiphop" /> Hiphop</label>
+        <label><input type="checkbox" name="type[]" value="Locking" /> Locking</label>
+        <label><input type="checkbox" name="type[]" value="Jazz" /> Jazz</label>
+        <label><input type="checkbox" name="type[]" value="Popping" />Popping</label> <br/><br/>
+        Or Other:
+        <input type="text" name="other"><br/><br/>
+        <h2>Questions we need to consider:</h2><br/><br/><!--The second part of user's information which further explores user's personality and habbits -->
+        Bboys who inspire you: <input type="text" name="bboyidol" /> <br /><br />
+        How did you start breaking<br/><!-- Textarea parts.-->
+        <textarea rows="10" cols="100" name="reason" placeholder="Why did you start break dancing"></textarea><br/><br/>
+        One unforgettably interesting experience in your break dance life:<br/>
+        <textarea rows="10" cols="100" name="experience" placeholder="Is there an experience that you will never forget during sesh, jam or chreo?"></textarea><br/><br/>
+        What would your life be like if you never started breaking<br/>
+        <textarea rows="10" cols="100" name="noBreak" placeholder="Maybe you would be gaming right now?"></textarea>
+        <br/><br/>
+        <h2>Trick! (Stories allowed)</h2><br/><br/><!-- Tricky parts: Using tricky questions to reflect user's personality and values.-->
+        Friends or Bboy<br/>
+        <textarea rows="10" cols="100" name="fob" placeholder="Which do you enjoy more? Breaking or being friends with all of your break dance buddies."></textarea><br/><br/>
+        Power VS  BF/GF<br/>
+        <textarea rows="10" cols="100" name="option" placeholder="Which makes you happier? Get a new power move or get to be in a relationship"></textarea><br/><br/>
+        Upload a dope bboy picutre of yourself:<!-- Allowing user to upload a picture of him/herself-->
+        <input type="file" name="file" /><br/><br/>
+        <input type="submit" value="Sign Up"/><!--submit button -->
+        <input type="reset" value="Reset!"><br><!--Reset button -->
+    </form>
+  </div>
+        <p id="signature">Design by Percy Siyu .Teng</p>
+      <hr/>      
+<footer>
+            <div id="nav">Follow Us: <a href="http://facebook.com/kinetiqbreakingclub" target="_blank">Facebook</a> <a href="http://twitter.com/kin3tiq" target='_blank'>Twitter</a> <a href="http://youtube.com/kinetiQisGreat" target="_blank">YouTube</a></div>
+            <div id="nav">Visit our Official Sponsor: <a href="http://bboynorth.bigcartel.com" target="_blank">BBoy North</a></div>
+            <p>&copy; 2014 KinetiQ Crew. All rights reserved.</p>
+            <ul>
+                <li><a href="KQ main page.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </footer>
+        </div> 
+</body>
+</html>

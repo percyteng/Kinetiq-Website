@@ -1,0 +1,658 @@
+/* Percy Teng 10122592 cisc282 final project css sheet*/
+/*This css file contains the styling parts of all the html and php pages.*/
+
+#dropnav{
+	width: 1146px;
+	margin-left: 8%;
+}
+h1{
+	color:white;
+}
+#query{
+	color:#f60
+}
+#textForm{
+	margin-left: 35%;
+}
+.pic{
+	position: absolute;
+	z-index: -100;
+	left:40%;
+	height:500px;
+}
+#form{
+	font-family: Ubuntu;
+	height: 600px;
+	margin-left: 10%;
+	color: white;
+	margin-top: 12%;
+}
+#show{
+	margin-top: 10%;
+	margin-left: 10%; 
+	width: 800px;
+}
+#prach1{
+	padding-left: 90px;
+	color: white;
+	font-size: 40px;
+	font-family: Ubuntu;
+}
+#eventh1{
+	margin-top: -13%;
+	padding-left: 700px;
+	color: white;
+	font-size: 40px;
+	font-family: Ubuntu;
+}
+#practice li{
+	padding-left: 70px;
+	list-style: none;
+	color: white;
+	font-family: Ubuntu;
+}
+#events li{
+	padding-left: 680px;
+	list-style: none;
+	color: white;
+	font-family: Ubuntu;
+}
+h4{
+	font-family: Ubuntu;
+	color: white;
+	font-size: 25px;
+	padding: 0px 80px
+}
+a{
+	text-decoration: none;
+	color: #f60;
+}
+body{
+	background-color: black;
+}
+nav ul{
+	padding: 10px;
+}
+nav {
+	background:black;
+	padding-top: 35px;
+	margin-top: 0;
+} /* Changes the height and bg color of the main menu */
+nav li{
+    display:block;
+  	float: left;
+  	text-align:center;
+  	padding: 0px 20px;
+}
+#sub{
+	width: 220px;
+	margin: 40px 10px 0px;
+	float: left;
+}
+nav {
+	height: 50px;
+}
+nav ul li{
+	height:50px; 
+	background-color: #000;
+	padding: 
+} /* only edit the last 2 items - sets the width of the main menu */
+
+#subnav ul li {
+	width: 60px;
+}
+
+nav li a{
+	color:#888888; 
+	font-size: 40px;
+	font-family: indie flower;
+} /* Changes the link color of items on the main menu */
+
+nav li:hover{
+    background-position:bottom;
+	-webkit-transition: color .3s, background 0;
+	-moz-transition: color .3s, background 0;
+	-o-transition: color .3s, background 0;
+	color:#F60; 
+	text-decoration:none;
+	border-bottom: solid 1px #FFF;
+}/* Changes the hover color of items on the main menu */
+nav li a.selected {
+		color: #FFF;
+        background: url("images/button_sel.png") no-repeat;
+        background-position:bottom;
+}
+nav li ul{
+	background-color: black;
+	display:none; 
+	z-index: 99; 
+	/*float: left;*/
+	list-style:none;
+	margin:0;
+	padding:0;
+} /* Only edit the last 2 items - set the top margin and background color of the submenus */
+
+nav li:hover ul{
+	background:black;
+	display:block; 
+	width:80px;
+} /* sets the width of the submenus */
+
+nav li li{
+	background-color: black;
+	float: left;
+	width: 250px;
+	padding: 10px;
+	list-style:none; 
+	display:list-item;
+} /* DO NOT EDIT */
+
+nav li li a{
+	float: left;
+	display:block;
+	color: #666;
+	z-index: 100;
+	text-decoration:none;
+	font-size: 30px;
+} /* Changes the link color of items in the submenu */
+nav ul li a.selected {
+	color: #FFF;
+	background: url("images/button_sel.png") no-repeat;
+    background-position:bottom;
+}
+.subnav li a.selected {
+		color: #FFF;
+        background: url("images/button_sel.png") no-repeat;
+        background-position:bottom;
+}
+#subnav{
+	position: relative;
+}
+nav li li a:hover{
+	color:#F60; 
+	text-decoration:none;
+} /* Changes the hover color of items in the submenu */
+
+nav {
+	height: auto;
+}
+
+nav ul {
+	height: 60px;
+}
+
+li#main{
+	margin: 0px 10px 0px;
+	float: left;
+
+} /* Sets the padding of items in the main menu */
+#logo{
+	width: 337px;
+	height: 240px;
+	border: none;
+	margin: 5px 0 0;
+	float:left;
+}
+#logo a:hover{
+	background-color:transparent;
+}
+img:hover{
+	-webkit-transition: opacity .3s ease-out ;
+	-moz-transition: opacity .3s ease-out;
+	-o-transition: opacity .3s ease-out;
+	opacity: 0.5;  
+}
+.pic:hover{
+	opacity:1;
+}
+#circlea:hover{
+	opacity: 0.6;  
+}
+#circleb:hover{
+	opacity: 0.6;  
+}
+#circlec:hover{
+	opacity: 0;  
+}
+#second li a{
+	color: #800000;
+	text-decoration: none;
+	padding-right: 100px;
+	padding-left: 20px;
+	font-size: 30px;
+	font-family: Ubuntu;
+}
+#second li{
+	display: inline;
+}
+#second{
+	z-index: 0;
+	float:left;
+	margin: 0px 40px 0px;
+}
+#banner{
+	width: 1330px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#banner div{
+	float: left;
+	margin-left: 8%;
+	margin-top: 3%;
+}
+#img1{
+	-webkit-transition: opacity .25s;
+	-webkit-transition-timing-function: cubic-bezier(0.9, 0.1, 0.99, 1.0);
+	-moz-transition: opacity .25s;
+	-moz-transition-timing-function: cubic-bezier(0.9, 0.1, 0.99, 1.0);
+	opacity: 1;
+	background-repeat: no-repeat;
+}
+#img2{
+	-webkit-transition: opacity .25s;
+	-webkit-transition-timing-function: cubic-bezier(0.9, 0.1, 0.99, 1.0);
+	-moz-transition: opacity .25s;
+	-moz-transition-timing-function: cubic-bezier(0.9, 0.1, 0.99, 1.0);
+	opacity: 1;
+	background-repeat: no-repeat;
+}
+#img3{
+	-webkit-transition: opacity .25s;
+	-webkit-transition-timing-function: cubic-bezier(0.9, 0.1, 0.99, 1.0);
+	-moz-transition: opacity .25s;
+	-moz-transition-timing-function: cubic-bezier(0.9, 0.1, 0.99, 1.0);
+	opacity: 1;
+	background:url("images/fs2-gif.gif");
+	background-repeat: no-repeat;
+}
+#words{
+	margin-top: 30%;
+	margin-left: auto;
+	margin-right:auto;
+}
+#signature {
+	padding-top: 50px;
+	margin-bottom: 1%;
+	text-align: right;
+	color: #f60;
+	padding-right: 130px;
+}
+#signature1 {
+	padding-top: 500px;
+	margin-bottom: 5px;
+	text-align: right;
+	color: #f60;
+	padding-right: 130px;
+}
+footer #nav {
+	margin: 0 14px 30px;
+	font-size: 16px;
+	color: white;
+}
+
+footer #nav a{
+	font-weight:650;
+	font-size: 18px;
+	margin: 0 14px 0;
+}
+
+footer ul {
+	float: right;
+	list-style: none;
+	width: 330px;
+	padding-top: 3px;
+	text-align: right;
+    margin-right: 10px;
+	border: none;
+}
+
+footer ul li {
+	display: inline;
+	margin: 0 5px;
+	border: none;
+}
+
+footer ul li a {
+	color: #FFF;
+	font-size: 0.9em;
+}
+
+footer ul li a:hover {
+	color:#999;
+	background-color:transparent;
+}
+footer {
+	width: 1100px;
+	clear: both;
+	padding-top: 20px;
+	padding-left: 120px;
+	border: none;
+}
+	
+/* Cloud */
+		
+hr {
+    height: 30px;
+    border-style: solid;
+    border-color: darkgrey;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;    
+    border-style: solid;
+    border-color: #888888;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+hr{
+	width: 80%;
+}
+h2,h3{
+	font-family: Ubuntu;
+	color: #f60;
+}
+#hr1{
+	margin-top:13%;
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#nav{
+	width: 500px;
+}
+p{
+	color: white;
+	font-family: Ubuntu;
+	line-height: 150%;
+}
+#cover:hover{
+	opacity: 1;
+}
+#coverPhoto{
+	width: 712px;
+	height: 200px;
+	background-size: 100% 100%;
+	margin-left: auto;
+	margin-right: auto; 
+	margin-top: 2%;
+}
+#coverPhoto1{
+	width: 712px;
+	height: 260px;
+	background-size: 100% 100%;
+	margin-left: auto;
+	margin-right: auto; 
+	margin-top: 2%;
+	margin-bottom: 3%;
+}
+#imgSection{
+	width: 1200px;
+}
+#flow1{
+	display: inline-block;
+	height:120px;
+	width: 163px;
+	background-image: url("images/flow1.jpg");
+	background-size: 100% 100%;
+	margin-left: 18%;
+	margin-top: 2%;
+	cursor: hand;
+	cursor: pointer;
+}
+#flow2{
+	display: inline-block;
+	height:120px;
+	width: 163px;
+	background-image: url("images/flow2.jpg");
+	background-size: 100% 100%;
+	margin-top: 2px;
+	cursor: hand;
+	cursor: pointer;
+}
+#flow3{
+	display: inline-block;
+	height:120px;
+	width: 163px;
+	background-image: url("images/flow3.jpg");
+	background-size: 100% 100%;
+	margin-top: 2px;
+	cursor: hand;
+	cursor: pointer;
+}
+#flow4{
+	display: inline-block;
+	height:120px;
+	width: 163px;
+	background-image: url("images/flow4.jpg");
+	background-size: 100% 100%;
+	margin-top: 2px;
+	cursor: hand;
+	cursor: pointer;
+}
+#flow5{
+	display: inline-block;
+	height:120px;
+	width: 163px;
+	background-image: url("images/flow5.jpg");
+	background-size: 100% 100%;
+	margin-top: 2px;
+	cursor: hand;
+	cursor: pointer;
+}
+#BCAT1{
+	margin-left: 17%;
+	display: inline-block;
+	height:150px;
+	width: 163px;
+	background-image: url("images/BCAT1.jpg");
+	background-size: 100% 100%;
+	margin-top: 2px;
+	cursor: hand;
+	cursor: pointer;
+}
+#BCAT2{
+	display: inline-block;
+	height:150px;
+	width: 163px;
+	background-image: url("images/BCAT2.jpg");
+	background-size: 100% 100%;
+	margin-top: 2px;
+	cursor: hand;
+	cursor: pointer;
+}
+#BCAT3{
+	display: inline-block;
+	height:150px;
+	width: 163px;
+	background-image: url("images/BCAT3.jpg");
+	background-size: 100% 100%;
+	margin-top: 2px;
+	cursor: hand;
+	cursor: pointer;
+}
+#BCAT4{
+	display: inline-block;
+	height:150px;
+	width: 163px;
+	background-image: url("images/BCAT4.jpg");
+	background-size: 100% 100%;
+	margin-top: 2px;
+	cursor: hand;
+	cursor: pointer;
+}
+#BCAT5{
+	display: inline-block;
+	height:150px;
+	width: 163px;
+	background-image: url("images/BCAT5.jpg");
+	background-size: 100% 100%;
+	margin-top: 2px;
+	cursor: hand;
+	cursor: pointer;
+}
+#outer{
+	position: fixed; 
+	height: 100%;
+	width: 100%;
+    	top: 0;
+    	bottom: 0;
+    	left: 0;
+    	right: 0;
+    	display: none;
+    	background-color: rgba(255,255,255,0.3);
+
+}
+#inner {
+	font-family: Ubuntu;
+}
+#inner img {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+button{
+	position: absolute;
+	z-index: 100;
+	top: 50px;
+}
+#thumbnail:hover{
+	opacity: 1;
+}
+.flow:hover{
+	webkit-transition: opacity .3s ease-out ;
+	-moz-transition: opacity .3s ease-out;
+	-o-transition: opacity .3s ease-out;
+	opacity: 0.5;  
+}
+#flowText{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	line-height: 150%;
+	font-family: Ubuntu;
+	width: 750px;
+}
+
+#aboutUs{
+	margin-top: 13%;
+	width: 960px;
+	height: 250px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#about{
+	width: 960px;
+	height: 250px;
+	opacity: 0.8;
+}
+#about:hover{
+	opacity: 0.8;
+}
+#KnowTheLedge{
+	margin-top: 13%;
+	width: 8c00px;
+	height: 250px;
+	margin-left: 10%;
+}
+#knowledge{
+	width: 1050px;
+}
+#knowledge:hover{
+	opacity: 1;
+}
+#text{
+	width: 960px;
+	margin-left:auto;
+	margin-right:auto;
+} 
+.colLeft {
+	float: left;
+	width: 435px;
+	border: none;
+}
+.colRight {
+	float: right;
+	width: 435px;
+	border: none;
+}
+.colLeftLinks{
+	margin-left: 10%;
+	margin-top: 5%;
+	float:left;
+	width:500px;
+	border:none;
+	padding-bottom: 5%;
+}
+#BBoyImage{
+	margin-top: 10%;
+	margin-left: 53%;
+}
+#BBoyImage img:hover{
+	opacity: 1;
+}
+#mainDiv{
+	color: white;
+	margin-top: 12%;
+	margin-left:15%;
+	font-family: Ubuntu;
+}
+textarea, input[type="text"],input[type="password"]{
+	background-color: rgba(220,220,220,0.8);/* Setting the background color of textboxes to 220,220,220 and transparency to 0.6*/
+	border-radius: 5px;/* Setting the border of text boxes into curved shape*/
+	border: solid 1px #888;
+	resize:none;/* Setting resize to none to abandon users from resizing the text boxes*/
+	margin-top: 5px;
+}
+
+*::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #444;
+}
+*:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #444;
+   opacity:  1;
+}
+*::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #444;
+   opacity:  1;
+}
+*:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #444;
+}
+input[type="submit"], input[type="reset"] {/* Setting margin, padding, border radius, background-color, color, and border of both input type"submit" and input type"reset"*/
+	margin-right:20px;
+	padding:5px 8px;
+	border-radius: 5px;
+	background-color: #800000;
+	color: #FFF;
+	border: solid 1px #FFF;
+} 
+input[type="submit"]:hover, input[type="reset"]:hover {/*Setting the properties of both input type submit and input type reset when user's mouse is hovering over the content. */
+	background-color: #FFF;
+	color: #6968A1;
+	border: solid 1px #6968A1;
+}
+input[type="text"], input[type="password"]{
+	padding: 5px 5px;
+	display: block;
+	margin-bottom: 10px;
+}
+select{/*Setting the properties of drop down list */
+	display: block;
+	margin-bottom: 10px;
+}
+#involveImg{
+	position: absolute;
+	width:650px;
+	height: 650px;
+	top: 25%;
+	left: 45%;
+	z-index: -100;
+}
+#involveImg:hover{
+	opacity: 1;
+}
